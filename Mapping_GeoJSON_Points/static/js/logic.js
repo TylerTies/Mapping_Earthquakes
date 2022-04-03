@@ -42,23 +42,3 @@ d3.json(airportData).then(function(data) {
  });
 
 
-
-
-// Then we add our 'dark' tile layer to the map.
-//dark.addTo(map);
-// Then we add our 'streets' tile layer to the map.
-//streets.addTo(map);
-
-
-// Accessing the airport GeoJSON URL
-// let airportData = "https://raw.githubusercontent.com/TylerTies/Mapping_Earthquakes/main/majorAirports.json";
-
-// Grabbing our GeoJSON data.
-// d3.json(airportData).then(function(data) {
-//     console.log(data);
-
-  // Creating a GeoJSON layer with the retrieved data.
-//   L.geoJSON(data).bindPopup(function (data) {
-//     return "<h3>Airport code: " + data.feature.properties.faa + "</h3> <hr> <h3>Airport name: " + data.feature.properties.name + "</h3>";
-// }).addTo(map);
-// });
