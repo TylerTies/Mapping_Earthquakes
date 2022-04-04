@@ -1,1 +1,3 @@
-# Mapping_Earthquakes
+# Mapping Earthquakes
+## Summary
+This project is intended to display earthquake activity over the previous week throughout the world.  Earthquake activity from the USGS website was displayed on a map using the leaflet JS library.  Multiple views from Mapbox were provided for user flexibility and marker parameters were used to decifer the magnitude differences between individual earthquakes.  Layers were also added to allow further filtering of the data.
